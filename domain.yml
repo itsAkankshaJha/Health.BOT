@@ -3,12 +3,12 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
 intents:
+- greet
 - bot_challenge
 - inform
 - goodbye
 - out_of_scope
 - deny
-- greet
 - affirm
 - thankyou
 - ask_lower_stress
@@ -76,7 +76,6 @@ responses:
   - text: Most healthy adults should aim to get about 150 min of moderate exercise per week. This includes activities like a brisk walk or yard work.
   utter_diet_info:
   - text: A healthy diet includes fruits and vegetables, whole grains, dairy, lean protein, and plant-based fats. While there is room in a healthy diet for treats, added sugar should be eaten sparingly. Aim for a variety of foods, and balance.
-
 actions:
 - action_submit_results
 - utter_ask_continue
@@ -85,7 +84,6 @@ actions:
 - utter_iamabot
 - utter_slots_values
 - validate_health_form
-
 forms:
   health_form:
     required_slots:

@@ -101,7 +101,6 @@ nlu:
     - how are you
     - i love you
     - You are bad
-    
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -109,7 +108,6 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     - are u a bot?
-
 - intent: inform
   examples: |
     - a full [8 hours](sleep)

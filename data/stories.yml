@@ -120,3 +120,4 @@ stories:
   - action: utter_goodbye
   - intent: goodbye
   - action: utter_goodbye
+
